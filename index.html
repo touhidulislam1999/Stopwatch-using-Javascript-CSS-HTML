@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stopwatch Using Javascript</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="stopwatch">
+      <h1 id="displayTime">00:00:00:00</h1>
+      <div class="buttons">
+        <img src="images/pause.png" onclick="watchStop()" />
+        <img src="images/start.png" onclick="watchStart()" />
+        <img src="images/reset.png" onclick="watchReset()" />
+      </div>
+      <div class="lap-button">
+        <img src="images/Lap.png" onclick="recordLap()" />
+      </div>
+      <div class="laps">
+        <h2>Laps</h2>
+        <ul id="lapList"></ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
