@@ -33,7 +33,7 @@ The **Stopwatch Application** allows users to measure time with precision, recor
 
 - **HTML**: Structuring the stopwatch layout and interactive buttons.
 - **CSS**: Designing the user interface with animations and responsiveness.
-- **JavaScript**: Implementing core stopwatch functionalities like time tracking, lap recording, and reset.
+- **JavaScript**: Implementing core stopwatch functionalities like time tracking, reset and lap recording.
 
 ---
 
