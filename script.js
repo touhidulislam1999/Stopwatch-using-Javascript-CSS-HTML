@@ -40,16 +40,15 @@ function watchReset(){
     lapList.innerHTML='';
 }
 function recordLap(){
-    let h=hours<10?'0'+hours:hours;
-    let m=minutes<10?'0'+minutes:minutes;
-    let s=seconds<10?'0'+seconds:seconds;
-    let ms=miliseconds<10?'0'+miliseconds:miliseconds;
+    let h = hours < 10 ? '0' + hours : hours;
+    let m = minutes < 10 ? '0' + minutes : minutes;
+    let s = seconds < 10 ? '0' + seconds : seconds;
+    let ms = miliseconds < 10 ? '0' + miliseconds : miliseconds;
 
-    let lapTime=`${h}:${m}:${s}:${ms}`;
-    let lapItem=document.createElement('li');
-    lapItem.textContent=lapTime;
-    //lapList.appendChild(lapItem);
+    let lapTime = `${h}:${m}:${s}:${ms}`;
+    let lapItem = document.createElement('li');
+    lapItem.textContent = lapTime;
 
-    let lapList=document.getElementById('lapList');
-    lapList.insertBefore(lapItem,lapList.firstChild);
-} 
+    let lapList = document.getElementById('lapList');
+    lapList.insertBefore(lapItem, lapList.firstChild);
+}
