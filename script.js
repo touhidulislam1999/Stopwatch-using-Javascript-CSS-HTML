@@ -21,6 +21,7 @@ function stopwatch(){
     let s=seconds<10?'0'+seconds:seconds;
     let ms=miliseconds<10?'0'+miliseconds:miliseconds;
 
+    
     displayTime.innerHTML=`${h}:${m}:${s}:${ms}`;
 }
 function watchStart(){
