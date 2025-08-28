@@ -7,7 +7,7 @@ body {
   width: 90%;
   max-width: 600px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(images/background.png);
+    url('images/background.png');
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -89,4 +89,5 @@ body {
   border-radius: 5px;
   color: #fff;
 }
+
 
